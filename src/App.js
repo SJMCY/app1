@@ -1,7 +1,5 @@
 import './App.css';
-
-function App() {
-  let r = 'React'
+ let r = 'React'
   let rn = 'React Native'
   const el =(
     <div>
@@ -9,7 +7,16 @@ function App() {
       with {r}&{rn}
     </div>
   )
-  return ( el
+
+function App() {
+  const divStyle ={
+    color: 'red',
+    backgroundColor: 'powderblue',
+    fontSize: 'larger',
+    padding: '3px'
+
+  }
+  return ( <div style={divStyle}>Hello React</div>
     );
 }
 
