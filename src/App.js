@@ -1,15 +1,12 @@
-
-import { Content, Footer, Header } from './func-componnent';
-import { Calculator2 } from './calculator';
-import Calendar from './class-componnent';
-
-
+import React from 'react'
+import { EventData2 } from './event-data';
 
 function App() {
+
+  return (
   
-  return ( 
-    <Calculator2 />
-    );
+    <EventData2/>
+  )
 }
 
 export default App;
