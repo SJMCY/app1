@@ -1,13 +1,12 @@
 import React from 'react'
-import RefsClass from './refs-func';
-import { EventData2 } from './event-data';
-import RefsArray from './refs-array';
+import StateFunc from './state-func';
+
 
 function App() {
 
   return (
   
-    <RefsArray/>
+    <StateFunc/>
   )
 }
 
