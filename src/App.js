@@ -1,5 +1,5 @@
 import React from 'react'
-import Effect from './effect'
+import Effect from 'effect.js'
 
 
 function App() {
