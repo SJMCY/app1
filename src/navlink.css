@@ -1,0 +1,40 @@
+.nav{
+    background-color: #ced;
+    padding: 7px;
+    text-align: center;
+    margin: 15px;
+}
+.store-header {
+    border-bottom: 4px double #514944;
+    color: #514944;
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin: 0 auto 12px;
+    max-width: 1050px;
+    padding: 0 0 8px;
+    text-align: center;
+}
+.store-header strong {
+    font-size: 44px;
+}
+.page-content {
+    margin: 20px;
+}
+.home-page, .page-message {
+    font-size: 20px;
+    text-align: center;
+}
+.home-page h3 {
+    font-size: 22px;
+}
+.menu{
+    color: blue;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+.active_menu{
+    color: red;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 2px 5px;
+}
