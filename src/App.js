@@ -1,9 +1,9 @@
-
-import Router4 from './router4'
+import React from 'react'
+import FromText from '/from-text.js'
 
 function App() {
   
-  return <Router4/>
+  return <FromText/>
 }
 
 export default App;
