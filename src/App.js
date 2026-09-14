@@ -1,9 +1,9 @@
 import React from 'react'
-import FromText from '/from-text.js'
+import FromSelectFile from '/from-select-file.js'
 
 function App() {
   
-  return <FromText/>
+  return <FromSelectFile/>
 }
 
 export default App;
